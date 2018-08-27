@@ -1,0 +1,178 @@
+print("Hi Welcome to the Jay's Python Game Show!")
+print("your goal is to achive 3 points if you get -3 you lose")
+points = 0
+while True:
+    q_1_1 = "when is Jay's Birthday?"
+    q_1_2 = "whose reigime controls Syria?"
+    q_1_3 = "How long does it take Cup-O-Noodles to be prepared?"
+    q_1_4 = "How many states are in the US?"
+    q_1_5 = "What year did Dimebag Darrol die?"
+
+    q_2_1 = "How many branches of government are there?"
+    q_2_2 = "What is a Kritik?"
+    q_2_3 = "Which band had the 90's most famous album"
+    q_2_4 = "A womens Indian dress is called."
+    q_2_5 = "stay is school, dont do _____"
+
+    q_3_1 = "give a man a ____ and you can feed him for a day."
+    q_3_2 = "What brand of guitar does Jay own?"
+    q_3_3 = ""
+    q_3_4 = ""
+    q_3_5 = ""
+
+    q_4_1 = ""
+    q_4_2 = ""
+    q_4_3 = ""
+    q_4_4 = ""
+    q_4_5 = ""
+
+    q_5_1 = ""
+    q_5_2 = ""
+    q_5_3 = ""
+    q_5_4 = ""
+    q_5_5 = ""
+
+
+
+
+
+
+
+    begin = input("press enter to continue:")
+    print("You must pick from our huge database for the question")
+    user_input_one = int(input("what is your first database number? (1-5) "))
+    user_input_two = int(input("now for the second number. (1-5) "))
+    processing = input("processing your selected question...press enter to begin")
+
+    if user_input_one == 1 and user_input_two == 1:
+        print(q_1_1)
+        print("A: August 15")
+        print("B: Everyday")
+        print("C: September 29")
+        print("D: June 2")
+        answer = input("so? whats your answer??: ")
+        if answer == "a":
+            points = points + 1
+        else:
+            points = points - 1
+
+    if user_input_one == 1 and user_input_two == 2:
+        print(q_1_2)
+        print("A: Isis")
+        print("B: Kurds")
+        print("C: Bashar Al-Assad")
+        print("D: Vladimir Putin")
+        answer = input("so? whats your answer??: ")
+        if answer == "c":
+            points = points + 1
+        else:
+            points = points - 1
+
+    if user_input_one == 1 and user_input_two == 3:
+        print(q_1_3)
+        print("A: Never-ending wait time")
+        print("B: 3-4 minutes")
+        print("C: 2-3 minutes")
+        print("D: 4-5 minutes")
+        answer = input("so? whats your answer??: ")
+        if answer == "b":
+            points = points + 1
+        else:
+            points = points - 1
+
+    if user_input_one == 1 and user_input_two == 4:
+        print(q_1_4)
+        print("A: 52")
+        print("B: None, America is a Figmint of our imagination")
+        print("C: 51")
+        print("D: 50")
+        answer = input("so? whats your answer??: ")
+        if answer == "d":
+            points = points + 1
+        else:
+            points = points - 1
+
+    if user_input_one == 1 and user_input_two == 5:
+        print(q_1_5)
+        print("A: He never died he lives on in our hearts!")
+        print("B: 2004")
+        print("C: 1967")
+        print("D: 1988")
+        answer = input("so? whats your answer??: ")
+        if answer == "a":
+            points = points + 1
+        else:
+            points = points - 1
+
+
+
+
+
+
+
+    if user_input_one == 2 and user_input_two == 1:
+        print(q_2_1)
+        print("A: YES")
+        print("B: Tree")
+        print("C: Three")
+        print("D: REEE")
+        answer = input("so? whats your answer??: ")
+        if answer == "c":
+            points = points + 1
+        else:
+            points = points - 1
+
+    if user_input_one == 2 and user_input_two == 2:
+        print(q_2_2)
+        print("A: Isis")
+        print("B: a devil drug")
+        print("C: Cool German word")
+        print("D: Lawrence of the labia")
+        answer = input("so? whats your answer??: ")
+        if answer == "c":
+            points = points + 1
+        else:
+            points = points - 1
+
+    if user_input_one == 2 and user_input_two == 3:
+        print(q_2_3)
+        print("A: Metallica!")
+        print("B: Nirvana")
+        print("C: Your gay uncle")
+        print("D: weezer")
+        answer = input("so? whats your answer??: ")
+        if answer == "b":
+            points = points + 1
+        else:
+            points = points - 1
+
+    if user_input_one == 2 and user_input_two == 4:
+        print(q_2_4)
+        print("A: Ogla")
+        print("B: Pantera")
+        print("C: Fincha")
+        print("D: Sari")
+        answer = input("so? whats your answer??: ")
+        if answer == "d":
+            points = points + 1
+        else:
+            points = points - 1
+
+    if user_input_one == 2 and user_input_two == 5:
+        print(q_2_5)
+        print("A: Pugs")
+        print("B: Drugs")
+        print("C: homework")
+        print("D: coding")
+        answer = input("so? whats your answer??: ")
+        if answer == "b":
+            points = points + 1
+        else:
+            points = points - 1
+    print(points)
+    if points == 3:
+        print("yay you won")
+        break
+    if points == -3:
+        print("you loseeeee")
+        break
