@@ -28,7 +28,7 @@ while True:
 
     q_5_1 = "What is polarization"
     q_5_2 = "Who is Brett Kavanaugh"
-    q_5_3 = ""
+    q_5_3 = "Is friendship magic?"
     q_5_4 = ""
     q_5_5 = ""
 
